@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=WhatsApp Web
+Type=Application
+Exec=whatsapp
+Terminal=false
+Icon=whatsapp
+NoDisplay=false
