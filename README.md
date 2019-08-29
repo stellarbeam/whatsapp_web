@@ -1,4 +1,4 @@
-Unofficial WhatsApp Web client for Ubuntu 18.04 ( May not work on other versions, your feedback is precious.)
+Unofficial WhatsApp Web client for Ubuntu 18.04, 19.04 ( May not work on other versions, your feedback is precious.)
 
 INSTALLATION PROCEDURE
 -
@@ -26,3 +26,7 @@ cython3 --embed -o main.c main.py
 gcc -Os -I /usr/include/python3.6m -o whatsapp main.c -lpython3.6m -lpthread -lm -lutil -ldl -no-pie
 ```
 Remember to replace `python3.6m` with the version available on your system. Simply check your `/usr/include/` direcotry to find out the version your system is using.
+
+Update:
+-
+Now the `install.sh` builds the binary from source by itself, for better compatibility. Please make sure you have `cython3` installed.
