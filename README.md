@@ -25,7 +25,7 @@ To build the app, run following commands:-
 cython3 --embed -o main.c main.py
 gcc -Os -I /usr/include/python3.6m -o whatsapp main.c -lpython3.6m -lpthread -lm -lutil -ldl -no-pie
 ```
-Remember to replace `python3.6m` with the version available on your system. Simply check your `/usr/include/` direcotry to find out the version your system is using.
+Remember to replace `python3.6m` with the version available on your system. Simply check your `/usr/include/` directory to find out the version your system is using.
 
 Update:
 -
