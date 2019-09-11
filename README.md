@@ -1,4 +1,4 @@
-Unofficial WhatsApp Web client for Ubuntu 18.04, 19.04 ( May not work on other versions, your feedback is precious.)
+Unofficial WhatsApp Web client for Linux (Tested on Ubuntu 18.04 and 19.04, Manjaro Linux)
 
 INSTALLATION PROCEDURE
 -
